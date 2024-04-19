@@ -98,15 +98,15 @@
                 gsap.to(".pre-loader", {
                     scale: 0.5,
                     ease: "power4.inOut",
-                    duration: 1.5,
-                    delay: 3.75
+                    duration: 2,
+                    delay: 3
                 })
 
                 gsap.to(".loader", {
                     height: "0",
                     ease: "power4.inOut",
                     duration: 1.5,
-                    delay: 4
+                    delay: 3.75
                 })
 
                 gsap.to(".loader-bg", {
@@ -132,7 +132,7 @@
                 })
 
                 gsap.to(".img", {
-                    clipPath: "polygon(0%, 0%, 100% 0%, 100% 100%, 0% 100%)",
+                    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
                     ease: "power4.inOut",
                     duration: 1.5,
                     delay: 4.5,
